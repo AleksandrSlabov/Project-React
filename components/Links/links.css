@@ -1,0 +1,68 @@
+.storeNameH1 {
+  width: 85px;
+  height: 30px;
+  top: 1509px;
+  left: 211px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #101010;
+  margin-left: 1rem;
+}
+
+.links {
+  width: 427px;
+  height: 82.8px;
+  top: 1513.72px;
+  left: 529px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.linksButton {
+  display: grid;
+  grid-row: auto;
+  gap: 10px;
+}
+
+.linksLang {
+  display: grid;
+  grid-row: auto;
+  gap: 35px;
+}
+.langButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  width: 126.1px;
+  height: 30.1px;
+
+  color: rgba(16, 16, 16, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.social_P {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: font-size 0.5s;
+}
+.btn:hover {
+  transform: scale(1.2);
+  font-weight: 600;
+}

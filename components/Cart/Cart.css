@@ -1,0 +1,63 @@
+.containerProductsCart {
+  display: grid;
+  justify-content: center;
+  background: rgba(234, 234, 234, 1);
+  height: auto !important;
+  width: 1440px;
+  min-height: 900px;
+  top: -450px;
+  left: 803px;
+}
+
+.sectionOneProductsCards {
+  width: 1110px;
+  height: auto !important;
+  top: 89px;
+  left: 165px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.textCart {
+  width: 326px;
+  height: 24px;
+  top: 89px;
+  left: 165px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(28, 28, 39, 1);
+}
+.cart {
+  flex: 1;
+}
+.productsCardsAndTotalAmount {
+  display: flex;
+  justify-content: space-between;
+}
+.footerProductCards {
+  width: 1110px;
+  height: 149px;
+  top: 751px;
+  left: 165px;
+}
+
+.emptyCart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.emptyCartP{
+  font-family: Montserrat;
+font-weight: 600;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+font-size: 2rem;
+
+
+}

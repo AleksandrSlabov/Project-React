@@ -1,0 +1,22 @@
+.buttonClasses {
+  border: none;
+  background: rgba(234, 234, 234, 1);
+  cursor: pointer;
+  transition: font-size 0.5s;
+}
+.buttonClasses:hover {
+  transform: scale(1.2);
+  font-weight: 1600;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.badge {
+  background-color: rgb(234, 243, 110);
+  border-radius: 20px;
+  font-weight: bold;
+}

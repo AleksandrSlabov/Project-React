@@ -1,0 +1,32 @@
+.conteinerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_h1 {
+  width: 85px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(16, 16, 16, 1);
+}
+
+.like {
+  border: none;
+  background: rgba(234, 234, 234, 1);
+  cursor: pointer;
+  transition: font-size 0.5s;
+}
+.like:hover {
+  transform: scale(1.5);
+  font-weight: 600;
+}
+
+.header {
+  width: 1109.89px;
+  height: 60px;
+  left: 165px;
+}
